@@ -1,0 +1,213 @@
+﻿# This is a Revit shared parameter file.
+# Do not edit manually.
+*META	VERSION	MINVERSION
+META	2	1
+*GROUP	ID	NAME
+GROUP	1	MOW-OTL
+*PARAM	GUID	NAME	DATATYPE	DATACATEGORY	GROUP	VISIBLE	DESCRIPTION	USERMODIFIABLE	HIDEWHENNOVALUE
+PARAM	92780224-d627-4eac-b4fc-4451dfce1091	BERSnl_C_TX_MowOtlNaam	TEXT		1	1	De mensleesbare naam van een aanvullende geometrie of bijlage. De beheerder kent deze naam toe of geeft de opdracht om deze toe te kennen.	1	0
+PARAM	3e33607d-c835-4744-ac5c-a55c4e7775e3	BERSnl_C_TX_MowOtlNaampad	TEXT		1	1	Een set van objecten (bv. collecties) die aanduiden waar het object zich bevindt in de objectenboom (EM-Infra).	1	0
+PARAM	085544ee-9e6d-4345-b13b-6c715e7b3cd4	BERSnl_C_TX_MowOtlNotitie	TEXT		1	1	Extra notitie voor het object.	1	0
+PARAM	1039e36e-0cb4-44fb-85d5-33e4237baf1f	BERSnl_C_TX_MowOtlStandaardBestekPostNummer	TEXT		1	1	Een verwijzing naar een postnummer uit het standaardbestek waar het object mee verband houdt. De notatie van het postnummer moet overeenkomen met de notatie die gebruikt is in de catalogi van standaardbestekken, bijvoorbeeld postnummer 0701.20404G.	1	0
+PARAM	e0f700ae-20e5-4bc2-92d5-c5f9c7b7e0f1	BERSnl_C_TX_MowOtlTechnischDocument	TEXT		1	1	Een technisch document zoals een detailplan, een technische fiche en/of een rekennota.	1	0
+PARAM	1f67000c-482d-4b39-add7-fc2819e57781	BERSnl_C_TX_MowOtlTechnischeFicheBestandsnaam	TEXT		1	1	Bestandsnaam - De technische fiche van het lijnvormig element.	1	0
+PARAM	85ecb7c0-047a-4c17-ae4e-10cdf8d721e2	BERSnl_C_TX_MowOtlAssetId	TEXT		1	1	Unieke identificatie van de aanvullende geometrie zoals toegekend door de beheerder of n.a.v. eerste aanlevering door de leverancier.	1	0
+PARAM	f88c3c3b-5b7b-4957-aa57-74450d029cf7	BERSnl_C_TX_MowOtlAssetIdentificator	TEXT		1	1	Unieke identificatie van de aanvullende geometrie zoals toegekend door de leverancier ten behoeve van de eerste aanlevering door de leverancier.	1	0
+PARAM	4851d7ca-500a-4cd2-baa4-2458c7820385	BERSnl_C_TX_MowOtlAssetToegekendDoor	TEXT		1	1	Naam van de leverancier die de eerste aanvulling aan de aanvullende geometrie indient.	1	0
+PARAM	bb43fec6-3d36-43ca-bfa8-a1db9be72bb6	BERSnl_C_TX_MowOtlBestekPostNummer	TEXT		1	1	Een verwijzing naar een postnummer uit het specifieke bestek waar het object mee verband houdt.	1	0
+PARAM	7e1e37c1-1d45-49d7-ae7c-c2da228656e8	BERSnl_C_TX_MowOtlBijlageBestandsnaam	TEXT		1	1	Bestandsnaam van bijlage-Het document of artefact dat een geometrie heeft of een bijlage is.	1	0
+PARAM	427e9eb1-49fd-45b9-bcc5-3ace43de2204	BERSnl_C_TX_MowOtlBijlageOmschrijving	TEXT		1	1	Omschrijving van bijlage-Het document of artefact dat een geometrie heeft of een bijlage is.	1	0
+PARAM	755eb3b8-b544-42ca-816c-45ddf0130cc1	BERSnl_C_TX_MowOtlBijlageOpmaakdatum	TEXT		1	1	Opmaakdatum  van bijlage-Het document of artefact dat een geometrie heeft of een bijlage is.	1	0
+PARAM	dfa1e759-9168-4dd9-afb1-2d66fc12b635	BERSnl_C_TX_MowOtlDatumOprichtingObject	TEXT		1	1	De datum waarop het object op het terrein is beginnen bestaan, bv. de datum van aanleg.	1	0
+PARAM	c3298fb3-b74b-41e7-a46a-bbbde6b497df	BERSnl_C_TX_MowOtlIsActief	TEXT		1	1	Geeft aan of het object actief kan gebruikt worden of (zacht) verwijderd is uit het asset beheer systeem.	1	0
+PARAM	39cdd26b-6ed4-4f79-9dc3-7ca3bcc4ac45	BERSnl_C_TX_MowOtlTechnischeFicheOmschrijving	TEXT		1	1	Omschrijving - De technische fiche van het lijnvormig element.	1	0
+PARAM	c349fdec-ac3d-425d-8f2d-9e5b434ed417	BERSnl_C_TX_MowOtlTechnischeFicheOpmaakdatum	TEXT		1	1	Opmaakdatum - De technische fiche van het lijnvormig element.	1	0
+PARAM	4dc2a8a1-79f2-4c0e-b407-4d75b88447bb	BERSnl_C_TX_MowOtlTheoretischeLevensduur	TEXT		1	1	De levensduur in aantal maanden die theoretisch mag verwacht worden voor een object.	1	0
+PARAM	33395d31-87f1-4057-b69e-9f29668df1e9	BERSnl_C_TX_MowOtlToestand	TEXT		1	1	Geeft de actuele stand in de levenscyclus van het object.	1	0
+PARAM	a40244c2-2f8a-41a0-88c2-40582ff27908	BERSnl_C_TX_MowOtlAansluitingskabel	TEXT		1	1	Geeft aan of er een kabel / welk type kabel er gebruikt wordt om communicatie van en naar dit element mogelijk te maken.	1	0
+PARAM	de890ce1-3469-46ef-8b6e-1d552a37cb30	BERSnl_C_TX_MowOtlAansluitspanning	TEXT		1	1	Spanning van de aansluiting, dit wordt enkel ingevuld op voedingsrelaties voorbij de hoofdschakelaar.	1	0
+PARAM	82630d17-403b-4046-9fa0-2f01fae3a9bc	BERSnl_C_TX_MowOtlAantalAdersEnSectie	TEXT		1	1	Aantal en sectie van de ader(s) van de kabel volgens een lijst van voorkomende types.	1	0
+PARAM	2558e822-5f26-4651-9680-dead94590ad8	BERSnl_C_TX_MowOtlAantalArmen	TEXT		1	1	Aantal armen van de lichtmast.	1	0
+PARAM	ba6a0692-a540-427b-a28a-732d61ed0250	BERSnl_C_TX_MowOtlAantalDraden	TEXT		1	1	Het aantal aders die door de kabel lopen.	1	0
+PARAM	e2527ef6-d7e4-491f-906d-825491411048	BERSnl_C_TX_MowOtlAantalDradenStrengen	TEXT		1	1	Het aantal draden of strengen die de kabel bevat.	1	0
+PARAM	b813dd9c-90af-410a-ad9d-43b0cbd61f49	BERSnl_C_TX_MowOtlAantalLampen	TEXT		1	1	Het aantal lampen die aanwezig zijn op het bord.	1	0
+PARAM	dd94a97e-839f-4322-bc32-86a904b18ff9	BERSnl_C_TX_MowOtlAantalLichtsensoren	TEXT		1	1	Het aantal lichtsensoren waar het bord over beschikt die continu de intensiteit van het invallend licht meten.	1	0
+PARAM	0942a653-d349-41a9-a1d4-6bd76695614b	BERSnl_C_TX_MowOtlAantalModules	TEXT		1	1	Het aantal lichtmodules waaruit de seinlantaarn bestaat.	1	0
+PARAM	dfd64120-debb-49d0-8815-d51dcc93fa75	BERSnl_C_TX_MowOtlAantalPolen	TEXT		1	1	Typering van het stopcontact volgens het aantal polen op basis van een keuzelijst.	1	0
+PARAM	b4be90ca-e30a-4752-8c60-9342fc076455	BERSnl_C_TX_MowOtlAantalUnits	TEXT		1	1	Het aantal units dat een server in een rack inneemt.	1	0
+PARAM	d1a391bc-c8d5-4ee0-99ce-d1a08330e4ce	BERSnl_C_TX_MowOtlAardingsnet	TEXT		1	1	De manier waarop respectievelijk de bron en de verbruiker met de aarde verbonden worden om op die manier foutstromen af te voeren.	1	0
+PARAM	185d86b4-945c-4221-b024-f010d1644ce0	BERSnl_C_TX_MowOtlAssetVersie	TEXT		1	1	De versie van de asset in de database.	1	0
+PARAM	a845c17c-2446-4871-8e90-1801acf36a4b	BERSnl_C_TX_MowOtlBeeldverwerkingsinstelling	TEXT		1	1	Geeft aan welke types beeldverwerking die camera zelf uitvoert dus zonder gebruik te maken van een externe verwerkingseenheid.	1	0
+PARAM	946c8b38-1a13-41bf-bc95-cbac41b5745f	BERSnl_C_TX_MowOtlBeeldverwerkingsinstellingConfigBestandBestandsnaam	TEXT		1	1	Bestandsnaam - Geeft aan welke types beeldverwerking die camera zelf uitvoert dus zonder gebruik te maken van een externe verwerkingseenheid.	1	0
+PARAM	d3c0536c-dd9c-4786-a2f7-4a3e6d09880d	BERSnl_C_TX_MowOtlBeeldverwerkingsinstellingConfigBestandOmschrijving	TEXT		1	1	Omschrijving - Geeft aan welke types beeldverwerking die camera zelf uitvoert dus zonder gebruik te maken van een externe verwerkingseenheid.	1	0
+PARAM	c382258b-0905-46a5-84bf-31f1b0cafdd8	BERSnl_C_TX_MowOtlBeeldverwerkingsinstellingConfigBestandOpmaakdatum	TEXT		1	1	Opmaakdatum - Geeft aan welke types beeldverwerking die camera zelf uitvoert dus zonder gebruik te maken van een externe verwerkingseenheid.	1	0
+PARAM	b2589f6a-ece9-454b-a19a-926df26880cb	BERSnl_C_TX_MowOtlBeeldverwerkingsinstellingTypeBeeldverwerking	TEXT		1	1	Beeldverwerking - Geeft aan welke types beeldverwerking die camera zelf uitvoert dus zonder gebruik te maken van een externe verwerkingseenheid.	1	0
+PARAM	176c89f4-1786-4793-8fc7-14d4959998e7	BERSnl_C_TX_MowOtlBreedte	TEXT		1	1	De breedte van de afwijkende kantopsluiting in centimeter.	1	0
+PARAM	0aa03d8c-f257-4c7d-b5e2-155899f4390a	BERSnl_C_TX_MowOtlBuitenmantelDiameter	TEXT		1	1	De buitenste afmeting van de kabel in millimeter.	1	0
+PARAM	09c56cda-36a4-4c4e-a99c-c6d94481ca2a	BERSnl_C_TX_MowOtlBuitenmantelKleur	TEXT		1	1	De hoofdkleur(en) die voor een waarnemer onmiddellijk zichtbaar is (zijn) zonder de kabel te ontmantelen, de kleur van de markeringen op die buitenste mantel buiten beschouwing gelaten.	1	0
+PARAM	116bbe40-f5e7-4bc3-9684-e2400a74c7c9	BERSnl_C_TX_MowOtlCommunicatieprotocol	TEXT		1	1	Communicatieprotocol waarmee het LEDBord wordt aangestuurd.	1	0
+PARAM	71121a53-a8a7-40fc-b23b-846eed135006	BERSnl_C_TX_MowOtlDetectieprincipe	TEXT		1	1	Het detectieprincipe geeft aan hoe de weggebonden detector voertuigen detecteert, bv. door gebruik te maken van inductie of doppler.	1	0
+PARAM	5ee5f141-e3bd-47d6-a33b-a75f42ffb3de	BERSnl_C_TX_MowOtlDiameter	TEXT		1	1	Diameter van de pompschroef of pompwaaier, inclusief de eigenlijke spiraal. Dit is dus de diameter die een omhullende cilinder nodig zou hebben.	1	0
+PARAM	f58a192e-5289-42bd-a0dd-a2d9b762614e	BERSnl_C_TX_MowOtlDnsNaam	TEXT		1	1	DNS-naam van de controller.	1	0
+PARAM	2cbd5698-10cd-4837-a132-24e56aa2c45a	BERSnl_C_TX_MowOtlElektrischSchema	TEXT		1	1	Elektrisch aansluitschema van de HS beveiligingscel.	1	0
+PARAM	d847c678-7f69-486b-a3fd-adaf4579eb24	BERSnl_C_TX_MowOtlElektrischSchemaBestandsnaam	TEXT		1	1	Bestandsnaam - Elektrisch aansluitschema van de HS beveiligingscel.	1	0
+PARAM	545728ce-8306-46e1-a36c-b1ba55b56fdd	BERSnl_C_TX_MowOtlElektrischSchemaOmschrijving	TEXT		1	1	Omschrijving - Elektrisch aansluitschema van de HS beveiligingscel.	1	0
+PARAM	f1f872e6-94b1-4286-b40d-9f8ad53de932	BERSnl_C_TX_MowOtlElektrischSchemaOpmaakdatum	TEXT		1	1	Opmaakdatum - Elektrisch aansluitschema van de HS beveiligingscel.	1	0
+PARAM	8b3aa339-6fbf-42ce-bd40-6906fb17e5a0	BERSnl_C_TX_MowOtlFabrikant	TEXT		1	1	De fabrikant van de steun.	1	0
+PARAM	85fc61a1-550f-496c-92c4-0a9e0f6b7211	BERSnl_C_TX_MowOtlFirmwareversie	TEXT		1	1	Versie van de firmware.	1	0
+PARAM	fc808996-d86b-4b13-ad99-44a4dee00292	BERSnl_C_TX_MowOtlHeeftFlits	TEXT		1	1	Geeft aan of de camera een externe infrarood flits heeft.	1	0
+PARAM	cc021d11-1d64-429e-9728-a98d11b9cf32	BERSnl_C_TX_MowOtlHeeftMaaibescherming	TEXT		1	1	Bepaalt of er al dan niet maaibescherming aanwezig is.	1	0
+PARAM	b2dd7b3a-5712-48f0-8612-d738af08f3d4	BERSnl_C_TX_MowOtlHeeftVerlichting	TEXT		1	1	Geeft aan of er verlichting aanwezig is binnen de kast.	1	0
+PARAM	b0acf5bb-9f24-48dd-bc31-7f35cec74ce7	BERSnl_C_TX_MowOtlHoogte	TEXT		1	1	De hoogte in centimeter van het schermelement, verticaal gemeten.	1	0
+PARAM	c24e6f61-628b-4142-b9c5-d3455cc98f78	BERSnl_C_TX_MowOtlIndelingsplan	TEXT		1	1	Schematisch overzicht van de indeling van de kast volgens de aanwezige technieken in vooraanzicht.	1	0
+PARAM	8355e94a-00f6-4be3-b1f2-2b6952035501	BERSnl_C_TX_MowOtlIndelingsplanBestandsnaam	TEXT		1	1	Bestandsnaam - Schematisch overzicht van de indeling van de kast volgens de aanwezige technieken in vooraanzicht.	1	0
+PARAM	0031a489-23a1-4c15-8f77-f8ab12220750	BERSnl_C_TX_MowOtlIndelingsplanOmschrijving	TEXT		1	1	Omschrijving - Schematisch overzicht van de indeling van de kast volgens de aanwezige technieken in vooraanzicht.	1	0
+PARAM	153e7000-89eb-44ec-bf20-831fa45d0479	BERSnl_C_TX_MowOtlIndelingsplanOpmaakdatum	TEXT		1	1	Opmaakdatum - Schematisch overzicht van de indeling van de kast volgens de aanwezige technieken in vooraanzicht.	1	0
+PARAM	5b08c7fb-7968-43b9-867e-75a78f0636e4	BERSnl_C_TX_MowOtlIpAdres	TEXT		1	1	IP-adres van de controller.	1	0
+PARAM	323ef4e4-a5dc-4400-ae63-230e391cb651	BERSnl_C_TX_MowOtlIsGeisoleerd	TEXT		1	1	Geeft expliciet aan of de aardingskabel al dan niet geïsoleerd is.	1	0
+PARAM	19138bb3-490e-42c8-bcf2-ae25c800ad33	BERSnl_C_TX_MowOtlIsPtz	TEXT		1	1	Een PTZ-camera is een CCTV-camera met bijhorend de mogelijkheid om te pannen, tilten en zoomen. Dit vanop afstand met behulp van een verstelbare lens en een motor die in twee assen draaibeweging toelaat.	1	0
+PARAM	e2a42fdf-9592-4e06-bae5-ae233c96ebf5	BERSnl_C_TX_MowOtlIsZelfsluitend	TEXT		1	1	Geeft aan of de deur voorzien is van een mechanisme dat er voor zorgt dat de deur sluit zonder tussenkomst van een gebruiker.	1	0
+PARAM	fc719032-3d6f-46a3-9a8e-b67387dc1762	BERSnl_C_TX_MowOtlKabelaansluitschema	TEXT		1	1	Document met het kabelaansluitschema.	1	0
+PARAM	2f80a244-4302-452c-8fde-673650dc29ff	BERSnl_C_TX_MowOtlKabelberekeningsnota	TEXT		1	1	De verzameling van alle berekeningen uitgevoerd om de secties en maximale lengtes van de kabels, gebruikt in de installatie, te bepalen.	1	0
+PARAM	e9425498-aed5-41f1-8c2d-a1e592048fb0	BERSnl_C_TX_MowOtlKabeldikte	TEXT		1	1	De dikte van de kabel in duim.	1	0
+PARAM	9281afd9-cc78-461e-b6b2-d9bd9595eeee	BERSnl_C_TX_MowOtlKortsluitspanning	TEXT		1	1	Kortsluitspanning van de transformator (in %).	1	0
+PARAM	ad1681d0-9cf3-478a-a744-27815854c551	BERSnl_C_TX_MowOtlKortsluitStroom	TEXT		1	1	De maximale elektrische stroom die kan lopen in een elektrisch circuit.	1	0
+PARAM	e1f46620-10b4-4e66-aea5-45340e2a1cc2	BERSnl_C_TX_MowOtlKortsluitVermogen	TEXT		1	1	De theoretische stroom die gaat lopen bij een kortsluiting wanneer de beveiliging nog niet heeft ingegrepen.	1	0
+PARAM	7d4d4496-97b7-4fe8-842f-92de353fdba6	BERSnl_C_TX_MowOtlMateriaal	TEXT		1	1	Het gebruikte materiaal voor de afschermende constructie.	1	0
+PARAM	e04cb761-0491-452b-9e8f-77ae38510e2d	BERSnl_C_TX_MowOtlMerk	TEXT		1	1	Het merk van een onderdeel uit een luchtkwaliteitsinstallatie.	1	0
+PARAM	4fe075f3-31f0-48e9-b57b-b552a6e97136	BERSnl_C_TX_MowOtlMerknaam	TEXT		1	1	Merk van de segmentcontroller.	1	0
+PARAM	c2e96d28-40b2-46aa-9703-68d55ab2ac25	BERSnl_C_TX_MowOtlModelnaam	TEXT		1	1	De modelnaam van een onderdeel uit een luchtkwaliteitsinstallatie.	1	0
+PARAM	928d4ea7-f387-43d7-942f-6742bfc993a5	BERSnl_C_TX_MowOtlNetwerkType	TEXT		1	1	Geeft aan bij welk type nutsvoorzieningennet de kabelmof hoort volgens de types uit IMKL en Inspire.	1	0
+PARAM	4862d299-de7d-477c-b6c1-55b99c36bcca	BERSnl_C_TX_MowOtlNominaleStroom	TEXT		1	1	De maximale stroom die door de installatie continu mag vloeien onder normale omstandigheden.	1	0
+PARAM	9308c776-10b3-4196-b7f6-71f552ed8938	BERSnl_C_TX_MowOtlOpstelhoogte	TEXT		1	1	De hoogte waarop de beweginssensor opgesteld is.	1	0
+PARAM	b97fcd2c-5aa4-46f8-9d8f-0a23ca80e33c	BERSnl_C_TX_MowOtlOpstelwijze	TEXT		1	1	De manier waarop de meteosensor is opgesteld, bv. via dwarsligger,...	1	0
+PARAM	9ecb2842-94ca-4214-bbef-759121b0a436	BERSnl_C_TX_MowOtlPeil	TEXT		1	1	Dit is het niveau in meter-TAW van de inlaat van het wervelventiel.	1	0
+PARAM	b67ab723-cf1a-408d-aec2-d65ff8741387	BERSnl_C_TX_MowOtlRetributie	TEXT		1	1	Periodieke geldsom verschuldigd aan de eigenaar of beheerder van het terrein waaronder de onderboring ligt.	1	0
+PARAM	3584a655-3e5c-44eb-99a3-345346c7527c	BERSnl_C_TX_MowOtlSectie	TEXT		1	1	Geeft de dikte van een kabel of pen voor aarding weer als oppervlakte van een doorsnede, uitgedrukt in mm².	1	0
+PARAM	abf46895-5c49-4146-9bd7-820723b2395b	BERSnl_C_TX_MowOtlSerienummer	TEXT		1	1	Het unieke nummer waarmee het toestel door de fabrikant geïdentificeerd is.	1	0
+PARAM	47633144-36fa-4630-acab-cf7d8811804d	BERSnl_C_TX_MowOtlServicePrioriteit	TEXT		1	1	Het prioriteitsniveau dat aangeeft hoe dringend iets moet onderhouden/gerepareerd worden.	1	0
+PARAM	be14f96e-0b81-4ca3-bc81-1b5d3bad580a	BERSnl_C_TX_MowOtlSoortBewaking	TEXT		1	1	Type bewaking van de detectie.	1	0
+PARAM	9b071cdd-c3e9-4748-b01e-971eb5a89205	BERSnl_C_TX_MowOtlSpectrum	TEXT		1	1	De golflengte van de invallende straling.	1	0
+PARAM	2dcdf8f7-e6b1-4151-8c6c-1f46124b0896	BERSnl_C_TX_MowOtlType	TEXT		1	1	De typering of categorie van de bijlage.	1	0
+PARAM	c24975a7-8300-4a2e-b17f-cf421b269d9c	BERSnl_C_TX_MowOtlTypeBescherming	TEXT		1	1	Geeft aan of en hoe de leiding bijkomend mechanisch beschermd is.	1	0
+PARAM	9de4ef3e-87f1-4d4d-a219-9434dcaa55b2	BERSnl_C_TX_MowOtlTypeSpecificatie	TEXT		1	1	Een verdere specificatie van het type van de voedingskabel volgens een vaste lijst om bv. de brandklasse mee te geven.	1	0
+PARAM	7baec10f-52ed-412e-bcb3-4eee4446d0ee	BERSnl_C_TX_MowOtlTypeWeggebruiker	TEXT		1	1	het type weggebruiker.	1	0
+PARAM	988ed62b-eb52-4e6c-b159-38ebfab20820	BERSnl_C_TX_MowOtlVerbindingstype	TEXT		1	1	Geeft het type aansluiting in de mof aan.	1	0
+PARAM	64c4324c-86db-4b2c-99b8-6185a94465a9	BERSnl_C_TX_MowOtlVergunning	TEXT		1	1	Het document met de vergunning voor de onderdoorboring.	1	0
+PARAM	a65c1b87-c602-4fa6-a85a-6c95d399aa8d	BERSnl_C_TX_MowOtlVergunningBestandsnaam	TEXT		1	1	Bestandsnaam - Het document met de vergunning voor de onderdoorboring.	1	0
+PARAM	b53cd53f-39c6-4f57-b846-ca70dbaf5913	BERSnl_C_TX_MowOtlVergunningOmschrijving	TEXT		1	1	Omschrijving - Het document met de vergunning voor de onderdoorboring.	1	0
+PARAM	c3bd4445-0c45-4b83-a4e8-530c1a15ab7a	BERSnl_C_TX_MowOtlVergunningOpmaakdatum	TEXT		1	1	Opmaakdatum- Het document met de vergunning voor de onderdoorboring.	1	0
+PARAM	ea1a0d98-2c43-4739-8b55-95640990d5a0	BERSnl_C_TX_MowOtlVoedingsspanning	TEXT		1	1	Spanning waarmee de detectoren gevoed worden.	1	0
+PARAM	63d14311-7b14-484e-bb97-6221422971c3	BERSnl_C_TX_MowOtlVorm	TEXT		1	1	Bepaalt de vorm van de buis.	1	0
+PARAM	bcf0c021-abfc-4b62-a993-4e9dde2beb6f	BERSnl_C_TX_MowOtlVrijeHoogte	TEXT		1	1	De verticale vrije ruimte tussen het wateroppervlak en het laagste punt van de bovenliggende constructie, zoals bruggen, balken of andere obstakels.	1	0
+PARAM	130d0aef-1f75-4bfe-a7bf-cc1a655640dd	BERSnl_C_TX_MowOtlAandachtspunt	TEXT		1	1	Aandachtspunten waar men rekening mee moet houden, die een impact hebben op de toegankelijkheid van een object.	1	0
+PARAM	25d268e0-bcbc-405b-8906-d38eaf09f23e	BERSnl_C_TX_MowOtlAankoopdatum	TEXT		1	1	Datum wordt het toestel is aangekocht.	1	0
+PARAM	3cd51cee-b6c7-4f3c-a6f2-fbf65329c82b	BERSnl_C_TX_MowOtlAansluitvermogen	TEXT		1	1	Vermogen van de aansluiting.	1	0
+PARAM	a9a87f3f-5955-4d72-b555-739a2df5d242	BERSnl_C_TX_MowOtlAantalAansluitpunten	TEXT		1	1	Geeft aan hoeveel aparte bronnen voor afname van stroom voorzien zijn in het verdeelsysteem.	1	0
+PARAM	d076406e-3a6f-4925-a596-0a2cd60ed4fe	BERSnl_C_TX_MowOtlAantalAlarmen	TEXT		1	1	Het aantal verschillende configureerbare alarmen dat de alarmmodule telt.	1	0
+PARAM	bc842422-39ee-4902-ab59-da9ea1726274	BERSnl_C_TX_MowOtlAantalLadders	TEXT		1	1	Het aantal ladders waarmee de seinbrug toegankelijk is.	1	0
+PARAM	7c43ccaf-16bc-4e82-bd31-90d65369e30b	BERSnl_C_TX_MowOtlAantalSteunen	TEXT		1	1	Het aantal steunen waarmee de seinbrug gedragen wordt.	1	0
+PARAM	9fe6e07e-e65d-42f9-88c4-fbd688eeefc3	BERSnl_C_TX_MowOtlAantalTelwerken	TEXT		1	1	Het aantal telwerken dat de energiemeter bevat: 1 bij enkelvoudige meter, 2 bij een dag- en nacht-meter.	1	0
+PARAM	63684cf9-d8cf-44cd-ae98-e58b81cae446	BERSnl_C_TX_MowOtlAantalTeVerlichtenRijstroken	TEXT		1	1	Het aantal rijstroken dat verlicht wordt door het LED verlichtingstoestel.	1	0
+PARAM	6725b2be-1507-49fa-beb9-ec898171d604	BERSnl_C_TX_MowOtlAfmeting	TEXT		1	1	De afmeting(en) van het verkeersbord.	1	0
+PARAM	e3719a21-3aab-45f7-b6f8-d33e7473bd65	BERSnl_C_TX_MowOtlAfmetingBreedte	TEXT		1	1	Breedte - De afmeting(en) van het verkeersbord.	1	0
+PARAM	465d449e-a404-4282-8811-f057e5ad1b26	BERSnl_C_TX_MowOtlAfmetingHoogte	TEXT		1	1	Hoogte - De afmeting(en) van het verkeersbord.	1	0
+PARAM	f4a8a0e2-1ceb-4277-9b05-5b183b24eb3f	BERSnl_C_TX_MowOtlAfmetingLengte	TEXT		1	1	Lengte - De afmeting(en) van het verkeersbord.	1	0
+PARAM	5860bfa9-b3a7-44f8-b899-8ac12de27ec6	BERSnl_C_TX_MowOtlArmlengte	TEXT		1	1	Lengte van de arm van een galgpaal in meter.	1	0
+PARAM	1a6cbe52-381b-4e79-9a2e-f97751d24731	BERSnl_C_TX_MowOtlBatchnummer	TEXT		1	1	Nummer van de productiebatch van de leverancier.	1	0
+PARAM	0e15b0f5-b0db-42b8-9070-b2661cd2ecf3	BERSnl_C_TX_MowOtlBetonspecificaties	TEXT		1	1	Eigenschappen van het gebruikte beton.	1	0
+PARAM	9d4b6d81-fdc7-4b91-af4b-a066f19cdea3	BERSnl_C_TX_MowOtlBetonspecificatiesBetondekking	TEXT		1	1	Betondekking - Eigenschappen van het gebruikte beton.	1	0
+PARAM	7cad5108-b458-4382-bca6-ba23323381a4	BERSnl_C_TX_MowOtlBetonspecificatiesBetonomgevingsklassen	TEXT		1	1	Betonomgevingsklassen - Eigenschappen van het gebruikte beton.	1	0
+PARAM	ffd8c663-e6f5-4e3a-9622-19ec88a600be	BERSnl_C_TX_MowOtlBetonspecificatiesBetonsterkteklasse	TEXT		1	1	Betonsterkteklasse - Eigenschappen van het gebruikte beton.	1	0
+PARAM	08317f39-f92f-4482-82f4-de7fba86b4a2	BERSnl_C_TX_MowOtlBetonspecificatiesGebruiksdomein	TEXT		1	1	Gebruiksdomein - Eigenschappen van het gebruikte beton.	1	0
+PARAM	522bf068-0240-4e99-9215-be7f6a4f0575	BERSnl_C_TX_MowOtlBetonspecificatiesGrootsteKorrelafmetingDmax	TEXT		1	1	GrootsteKorrelafmetingDmax - Eigenschappen van het gebruikte beton.	1	0
+PARAM	d78fdc8c-539c-46a6-9820-637f712130b2	BERSnl_C_TX_MowOtlBeveiligingssleutel	TEXT		1	1	De encryptie die wordt toegepast om de verbinding tussen lokaal en centraal te beveiligen.	1	0
+PARAM	af9d698d-c018-4f0c-a1ac-68aa1e3ddbe2	BERSnl_C_TX_MowOtlBuitendiameter	TEXT		1	1	Afmeting van de buitenkant van de opening waarlangs het opgepompte water loopt in functie van een aansluiting van een afvoer.	1	0
+PARAM	99ff8334-c7ad-485f-b528-6fcbd8d986cd	BERSnl_C_TX_MowOtlDatumEnergieleveringscontract	TEXT		1	1	De datum waarop het energieleveringscontract afgesloten is.	1	0
+PARAM	4d1898d8-7616-4672-9de2-899cd1f4c17c	BERSnl_C_TX_MowOtlDatumStartEnergielevering	TEXT		1	1	De datum waarop de energielevering effectief aanvangt. Dit gebeurt zodra zowel de aansluiting op het DNB-net als het energieleveringscontract in orde zijn.	1	0
+PARAM	1af1e3f4-bc7b-48ef-8025-f56f4634bee4	BERSnl_C_TX_MowOtlEanNummer	TEXT		1	1	Uniek identificatienummer van de elektrische aansluiting, bestaande uit 18 cijfers.	1	0
+PARAM	fb0e1045-7288-4eff-a782-a41a0dd8c4c4	BERSnl_C_TX_MowOtlElektrischeBeveiliging	TEXT		1	1	Type elektrische beveiliging aanwezig in de draagconstructie.	1	0
+PARAM	05228aac-059e-4a7d-a797-a538fcece2b6	BERSnl_C_TX_MowOtlEnergieleverancier	TEXT		1	1	Leverancier van de energie.	1	0
+PARAM	9989619a-b0dc-4a1a-8102-e5e2320bd0d3	BERSnl_C_TX_MowOtlGeldigTot	TEXT		1	1	De datum tot en met welke de elektrische keuring als geldig wordt beschouwd, conform de geldende regelgeving of het keuringsverslag, waarna een herkeuring vereist is.	1	0
+PARAM	3fa95c15-9d27-4028-8296-112098fc13c4	BERSnl_C_TX_MowOtlGrondplan	TEXT		1	1	Plattegrond van de behuizing met aanduidingen van de verschillende aanwezige elementen zoals kelder, kasten met kastnummers, toegangscontrole en meer.	1	0
+PARAM	117f528d-988c-4c83-b92b-a48659276afe	BERSnl_C_TX_MowOtlGrondplanBestandsnaam	TEXT		1	1	Grondplan - Plattegrond van de behuizing met aanduidingen van de verschillende aanwezige elementen zoals kelder, kasten met kastnummers, toegangscontrole en meer.	1	0
+PARAM	25cf3582-ddb7-4b3b-a729-f711ce6aad9a	BERSnl_C_TX_MowOtlGrondplanOmschrijving	TEXT		1	1	Omschrijving - Plattegrond van de behuizing met aanduidingen van de verschillende aanwezige elementen zoals kelder, kasten met kastnummers, toegangscontrole en meer.	1	0
+PARAM	eb3ac3b7-46c3-4059-8623-b9f4ca0e0022	BERSnl_C_TX_MowOtlGrondplanOpmaakdatum	TEXT		1	1	Opmaakdatum - Plattegrond van de behuizing met aanduidingen van de verschillende aanwezige elementen zoals kelder, kasten met kastnummers, toegangscontrole en meer.	1	0
+PARAM	e0dd12d4-9d4b-4ac0-95a0-3521530d740c	BERSnl_C_TX_MowOtlHeeftAardingsschakelaar	TEXT		1	1	Geeft aan of er al dan niet een aardingsschakelaar aanwezig is.	1	0
+PARAM	0813e3b2-45d4-4c16-8beb-2387f1e02298	BERSnl_C_TX_MowOtlHeeftIsolatie	TEXT		1	1	Geeft aan of de cabine is voorzien van isolatie.	1	0
+PARAM	8e166231-ec7b-4757-9bda-a1354a4e0d0c	BERSnl_C_TX_MowOtlHeeftReserveZekering	TEXT		1	1	Is er een reserve zekering aanwezig?	1	0
+PARAM	894b2c1f-2d7f-4710-ae7e-b8eae736893e	BERSnl_C_TX_MowOtlHoogspanningszekering	TEXT		1	1	Waarde van de hoogspanningszekering.	1	0
+PARAM	294309f3-d339-4c40-ab2e-00d42ff621b3	BERSnl_C_TX_MowOtlIndicatieveDiepte	TEXT		1	1	De opgemeten diepte als een (positief) getal in meter tussen het hoogste punt van de buis en het maaiveld zoals dit gekend was op het moment van aanleg van de buis.	1	0
+PARAM	b1e7bd9d-7a9b-401e-88ac-1814c53d60f9	BERSnl_C_TX_MowOtlInloopbehuizingMateriaal	TEXT		1	1	Materiaal waaruit de behuizing vervaardigd is zonder buitenafwerking van dak of wanden.	1	0
+PARAM	0f37ea82-36cc-443f-afe5-510c1529cf47	BERSnl_C_TX_MowOtlIsFlexibel	TEXT		1	1	Geeft aan of de beschermbuis flexibel is. Zo niet, dan spreken we van een vaste buis.	1	0
+PARAM	d993b598-cbf2-4687-af11-53d5b1aa72c7	BERSnl_C_TX_MowOtlIsGalvanischGescheiden	TEXT		1	1	Geeft aan of de transformator al dan niet galvanisch gescheiden is.	1	0
+PARAM	7fa9883a-5ea4-4d7b-8af9-23a499a86007	BERSnl_C_TX_MowOtlIsGecombineerdeEnergiemeter	TEXT		1	1	Geeft aan of de meter naast de gewone verbruiksmeting ook reactief vermogen en piek metingen doet.	1	0
+PARAM	44f19f55-da6b-4708-b779-5c726b91a534	BERSnl_C_TX_MowOtlIsKopcabine	TEXT		1	1	Duidt aan of de HSCabine toegankelijk moet zijn de distributienetbeheerder.	1	0
+PARAM	5fa0407d-9872-4dc5-bc6d-821f8aba1447	BERSnl_C_TX_MowOtlIsolatiemedium	TEXT		1	1	Wijze van onderdompeling van de magnetische kring en van de wikkelingen van de transformator.	1	0
+PARAM	f3c94890-6044-4999-b535-ea642896d06a	BERSnl_C_TX_MowOtlIsOlieGevuld	TEXT		1	1	Duidt aan of de transformator al dan niet gevuld is met olie. Het andere is van het droge type, meestal harsgevuld.	1	0
+PARAM	58fe0e9f-426c-42da-bada-43d78f7d4a6d	BERSnl_C_TX_MowOtlIsRisicovol	TEXT		1	1	Geeft aan of werken aan of rond de leiding een verhoogd risico met zich meebrengen omwille van de aard van de betrokken leiding.	1	0
+PARAM	61287fb4-0fd6-4dea-aaa4-7b0829ec9277	BERSnl_C_TX_MowOtlKastmateriaal	TEXT		1	1	Materiaal waaruit de kast is opgebouwd.	1	0
+PARAM	b0e68920-87f4-4fe1-9cde-380c8189d419	BERSnl_C_TX_MowOtlKelderdiepte	TEXT		1	1	Binnenhoogte in meter van de kabelkelder onder de cabine.	1	0
+PARAM	3a0b7bdd-a99c-4ba0-9841-636771ee31a8	BERSnl_C_TX_MowOtlKeuringsdatum	TEXT		1	1	De datum waarop het asset laatst is gekeurd.	1	0
+PARAM	c0da9107-5325-41f1-9519-3ed1ae0e95c0	BERSnl_C_TX_MowOtlKeuringsfrequentie	TEXT		1	1	Frequentie (in jaar) waarmee de kast moet onderworpen worden aan een periodieke keuring door een externe dienst voor technische controle.	1	0
+PARAM	b8da78b1-d322-4298-bec0-1b8f80f91f05	BERSnl_C_TX_MowOtlKleur	TEXT		1	1	De kleur van kantopsluiting.	1	0
+PARAM	37b34ce5-8570-4d81-bd90-f95f3b82bea9	BERSnl_C_TX_MowOtlKleurTemperatuur	TEXT		1	1	Kleurtemperatuur van de LED's.	1	0
+PARAM	4ea6883e-5648-41af-912f-8a49c78cb2f0	BERSnl_C_TX_MowOtlLeverancier	TEXT		1	1	Leverancier van de lichtmast.	1	0
+PARAM	7b51e4bb-b643-47e5-a678-da797ea9ec32	BERSnl_C_TX_MowOtlLichtpuntHoogte	TEXT		1	1	Hoogte van het lichtpunt ten opzichte van de rijweg.	1	0
+PARAM	0759c87f-031c-4127-b47e-ef05573717f6	BERSnl_C_TX_MowOtlLokaalKlasse	TEXT		1	1	Classificatie van de hoogspanningscabine als lokaal volgens Synergrid.	1	0
+PARAM	5c937817-044b-48ca-bc51-8271b005e6fd	BERSnl_C_TX_MowOtlLumenOutput	TEXT		1	1	De totale hoeveelheid licht dat de lamp in het verlichtingstoestel uitstraalt.	1	0
+PARAM	0ebd6c54-f9fa-49ec-a140-5fdcf7395fda	BERSnl_C_TX_MowOtlMasthoogte	TEXT		1	1	Hoogte (in meter) van de lichtmast.	1	0
+PARAM	fe20316d-e0ab-4e17-b87d-97d96ae192b9	BERSnl_C_TX_MowOtlMeternummer	TEXT		1	1	Het serienummer (nummer van het fabrikaat) op de meter.	1	0
+PARAM	6491c6a6-516f-46c0-b0cf-e91072107688	BERSnl_C_TX_MowOtlMeteropnameFrequentie	TEXT		1	1	Frequentie waarmee de meterstand opgenomen wordt door de netbeheerder.	1	0
+PARAM	96677b14-e381-44a3-a025-f5410da29f30	BERSnl_C_TX_MowOtlMetertype	TEXT		1	1	Type meter (mechanisch, elektronisch).	1	0
+PARAM	011f95c7-5d24-4adb-be15-c7dd0486bbd0	BERSnl_C_TX_MowOtlMPlan	TEXT		1	1	Mechanisch plan van de volledige installatie. Er wordt één plan toegevoegd per installatie/techniek die op de kast is aangesloten.	1	0
+PARAM	7e401b07-9254-407e-a3d6-f0afc90188cf	BERSnl_C_TX_MowOtlMPlanBestandsnaam	TEXT		1	1	Bestandsnaam - Mechanisch plan van de volledige installatie. Er wordt één plan toegevoegd per installatie/techniek die op de kast is aangesloten.	1	0
+PARAM	4af842bf-4200-48ae-b10f-88b0eac787cf	BERSnl_C_TX_MowOtlMPlanOmschrijving	TEXT		1	1	Omschrijving - Mechanisch plan van de volledige installatie. Er wordt één plan toegevoegd per installatie/techniek die op de kast is aangesloten.	1	0
+PARAM	8f4a2b3a-4cf4-4efa-a885-40749162215f	BERSnl_C_TX_MowOtlMPlanOpmaakdatum	TEXT		1	1	Opmaakdatum - Mechanisch plan van de volledige installatie. Er wordt één plan toegevoegd per installatie/techniek die op de kast is aangesloten.	1	0
+PARAM	62c85c15-1691-4a17-8a7a-3adfb0e70bed	BERSnl_C_TX_MowOtlNauwkeurigheidsklasse	TEXT		1	1	Nauwkeurigheidsklasse van de meetcel (vb 0,2; 0,2s; 0,5; ...).	1	0
+PARAM	68f17236-a754-4e5c-ad32-3786d3f2ea76	BERSnl_C_TX_MowOtlNauwkeurigheidsvermogen	TEXT		1	1	Nauwkeurigheidsvermogen van de meetcel (vb 5;15).	1	0
+PARAM	f0927cec-394a-40cd-8920-28f8fb5942bc	BERSnl_C_TX_MowOtlNetbeheerder	TEXT		1	1	Lokale instantie die instaat voor het beheer van het elektriciteitsnet.	1	0
+PARAM	bb8df10b-b7f3-46e3-b97d-da704e95df64	BERSnl_C_TX_MowOtlNetwerkconfiguratieWV	TEXT		1	1	De netwerkconfiguratie omvat de instelling van het netwerk (de zogenaamde kleur van het netwerk) in het kader van de gesplitste netwerkenopstelling van de lichtpuntcontrole.	1	0
+PARAM	20054009-817d-4395-abb7-35ec78f046cc	BERSnl_C_TX_MowOtlNominaalVermogen	TEXT		1	1	Nominaal vermogen (in watt) van de LED rotondeafbakening.	1	0
+PARAM	32d7a1de-5864-491d-9fc0-ba735e352b7b	BERSnl_C_TX_MowOtlNominalePrimaireSpanning	TEXT		1	1	Nominale spanning van de primaire wikkeling in kV.	1	0
+PARAM	6dc33d97-b33b-4a30-b2c1-d2fe543757e6	BERSnl_C_TX_MowOtlNominaleSecundaireSpanning	TEXT		1	1	Nominale spanning van de secundaire wikkeling in V.	1	0
+PARAM	baa4d51d-47ac-4bc1-9654-af7f0f3ae2ff	BERSnl_C_TX_MowOtlOverhang	TEXT		1	1	Afstand tot de rand van de rijbaan van de verticale projectie van het verlichtingstoestel op de rijbaan in meter. Als de afstand tot de rijbaan gelijk is aan 0, dan valt de verticale projectie samen met de rand van de rijbaan, bij negatieve waardes ligt de verticale projectie in de berm en bij positieve waardes ligt de verticale projectie op de rijbaan	1	0
+PARAM	8722f5f1-35f2-4f4b-ab7d-06bd0dd62e1c	BERSnl_C_TX_MowOtlOverstroombeveiligingInstelwaarde	TEXT		1	1	Instelwaarde van de overstroombeveiliging.	1	0
+PARAM	0a1ad5ba-61f3-4179-a069-9b6978ba97ba	BERSnl_C_TX_MowOtlOverstroombeveiligingType	TEXT		1	1	Type overstroombeveiliging.	1	0
+PARAM	14a55a31-c36b-4e6d-9ab3-438ede799451	BERSnl_C_TX_MowOtlOverstroombeveiligingVermogenschakelaar	TEXT		1	1	Directe of indirecte overstroombeveiliging van de vermogenschakelaar.	1	0
+PARAM	64d7f304-957d-495f-b3fd-c4a38aaeda32	BERSnl_C_TX_MowOtlReferentieDNB	TEXT		1	1	De wijze waarop, de referentie waarmee de aansluiting gekend is bij de distributienetbeheerder.	1	0
+PARAM	ef8ac4f0-c015-49fc-8269-d42c7373a6c1	BERSnl_C_TX_MowOtlResultaat	TEXT		1	1	De uitkomst van de keuring of de asset al dan niet voldoet aan de vastgelegde criteria, normen of voorschriften.	1	0
+PARAM	6e8c66c5-3751-4f31-9149-9cce86c796d6	BERSnl_C_TX_MowOtlRijrichting	TEXT		1	1	De rijrichting van de voertuigen die gecontroleerd worden.	1	0
+PARAM	3d2596a3-2609-4006-a06b-5a62969996b6	BERSnl_C_TX_MowOtlRisicoAnalyse	TEXT		1	1	Document met de risicoanalyse.	1	0
+PARAM	0316b7bd-b29e-48ba-8943-994fc390f2c1	BERSnl_C_TX_MowOtlRisicoAnalyseBestandsnaam	TEXT		1	1	Bestandsnaam - Document met de risicoanalyse.	1	0
+PARAM	4cc7e8b7-5dc4-4cb3-9474-b0992f444191	BERSnl_C_TX_MowOtlRisicoAnalyseOmschrijving	TEXT		1	1	Omschrijving - Document met de risicoanalyse.	1	0
+PARAM	3b5a7928-bb04-4d89-ac14-21ef057bc409	BERSnl_C_TX_MowOtlRisicoAnalyseOpmaakdatum	TEXT		1	1	Opmaakdatum - Document met de risicoanalyse.	1	0
+PARAM	de559d4d-5424-408e-af98-bdd656422551	BERSnl_C_TX_MowOtlSchakelgroep	TEXT		1	1	Verzameling van 3 schakelcombinaties waarbij de hoofdletter de schakelwijze van de primaire weergeeft, de kleine letter(s) de schakelwijze van de secundaire weergeeft (en eventueel het feit dat het sterpunt naar buiten werd gebracht) en het getal geeft het klokgetal (of het aantal keer dat er 30° faseverschuiving tussen HS- en LS-spanning is) vb Dyn11	1	0
+PARAM	fdf7a87d-5c7d-4d6d-9744-44c4cbd49bdf	BERSnl_C_TX_MowOtlSchakelmateriaalKlasse	TEXT		1	1	Klasse van het schakelmateriaal volgens Synergrid.	1	0
+PARAM	d7488b63-b47c-4e50-b9db-443689947fd5	BERSnl_C_TX_MowOtlSchakelmateriaalType	TEXT		1	1	Type van schakelmateriaal.	1	0
+PARAM	ba30237f-9e49-428b-88ba-de912c8dafc5	BERSnl_C_TX_MowOtlStandaardtype	TEXT		1	1	Het type van de cabine volgens de gangbare standaarden.	1	0
+PARAM	1873e24a-1463-443b-80e2-1e5cd364581b	BERSnl_C_TX_MowOtlSysteemvermogen	TEXT		1	1	Systeemvermogen (Watt) van het verlichtingstoestel.	1	0
+PARAM	b3d33a8d-b8b8-4d32-a8de-e36d2dfef47c	BERSnl_C_TX_MowOtlTabelUitwendigeInvloeden	TEXT		1	1	Een bestandsbijlage met de ingevulde en actuele tabel uitwendige invloeden zoals vereist door het AREI voor bepaalde elektrische installaties.	1	0
+PARAM	5d14e1ca-2ed9-4f2c-a4a3-a5a82c5771fc	BERSnl_C_TX_MowOtlTabelUitwendigeInvloedenBestandsnaam	TEXT		1	1	Bestandsnaam - Een bestandsbijlage met de ingevulde en actuele tabel uitwendige invloeden zoals vereist door het AREI voor bepaalde elektrische installaties.	1	0
+PARAM	add4709d-3839-46da-be63-bcd1b7516aca	BERSnl_C_TX_MowOtlTabelUitwendigeInvloedenOmschrijving	TEXT		1	1	Omschrijving - Een bestandsbijlage met de ingevulde en actuele tabel uitwendige invloeden zoals vereist door het AREI voor bepaalde elektrische installaties.	1	0
+PARAM	f01d653e-10e8-427e-9525-611e1c678ddc	BERSnl_C_TX_MowOtlTabelUitwendigeInvloedenOpmaakdatum	TEXT		1	1	Opmaakdatum - Een bestandsbijlage met de ingevulde en actuele tabel uitwendige invloeden zoals vereist door het AREI voor bepaalde elektrische installaties.	1	0
+PARAM	60e929a2-9199-490d-ba95-f7b5ae4a3a1a	BERSnl_C_TX_MowOtlTransformatieverhouding	TEXT		1	1	Verhouding van de transformatie (vb 25/5;50/5; (5500/v3)/( 110/v3);...).	1	0
+PARAM	40473922-bcc7-4444-8c82-5c7e09dff497	BERSnl_C_TX_MowOtlTypeBeveiliging	TEXT		1	1	Type transformatorbeveiliging.	1	0
+PARAM	3fcaaaa5-7fcd-42b1-8969-fff1bc2387ee	BERSnl_C_TX_MowOtlUurtarief	TEXT		1	1	Type uurtarief vb enkelvoudig, dubbelvoudig,...	1	0
+PARAM	6d6c31c0-c2e7-4922-a5c4-6696cd3a4372	BERSnl_C_TX_MowOtlVeiligheidsfactor	TEXT		1	1	Verhouding tussen de toegekende primaire limietstroom van de meetcel en de toegekende primaire stroom.	1	0
+PARAM	16fee650-c8a6-4815-80b4-a66e75010e21	BERSnl_C_TX_MowOtlVerfraaid	TEXT		1	1	Geeft aan of de wegkantkast voorzien van verfraaiing en of die al dan niet vergund is.	1	0
+PARAM	cc9f36e3-ca95-4824-b4b6-03ec431ffb34	BERSnl_C_TX_MowOtlVerlichtGebied	TEXT		1	1	Het gebied op de wegbaan of het object dat verlicht wordt door het verlichtingstoestel.	1	0
+PARAM	8ae81b7d-a585-4d2e-858b-cf69269e1f30	BERSnl_C_TX_MowOtlVerlichtingsNiveau	TEXT		1	1	Een set van verlichtingstechnische eisen zoals gemiddelde luminantie, verlichtingssterkte, uniformiteiten.	1	0
+PARAM	078f51ee-fe76-4207-98c2-e9a73b278a75	BERSnl_C_TX_MowOtlVervaldatumVeiligheidshandschoenen	TEXT		1	1	De datum waarop de huidige veiligheidshandschoenen in de hoogspanningscabine vervallen.	1	0
+PARAM	a7c1804d-cd8d-4d87-9098-864106a22329	BERSnl_C_TX_MowOtlWapeningsplan	TEXT		1	1	Plan waarin de wapening zo gedetailleerd mogelijk wordt uitgetekend (met materiaalspecificaties en de afmetingen worden weergegeven in millimeters).	1	0
+PARAM	9e9bc08d-6938-488d-a727-59471cee8c84	BERSnl_C_TX_MowOtlWapeningsplanBestandsnaam	TEXT		1	1	Bestandsnaam - Plan waarin de wapening zo gedetailleerd mogelijk wordt uitgetekend (met materiaalspecificaties en de afmetingen worden weergegeven in millimeters).	1	0
+PARAM	37a6d4f3-d9a9-4c2f-a726-b3551f645158	BERSnl_C_YN_MowOtlTabelUitwendigeInvloeden	YESNO		1	1	Moet er een bestand zijn voor de tabel uitwendige invloeden zoals vereist door het AREI voor bepaalde elektrische installaties.	1	0
+PARAM	e1a4bfda-6b6a-413c-a093-236f85dc6e5b	BERSnl_C_YN_MowOtlTechnischDocument	YESNO		1	1	Moet er een bestand zijn voor technisch document zoals een detailplan, een technische fiche en/of een rekennota?	1	0
+PARAM	803d6275-8c03-411e-809f-bc991bfae2af	BERSnl_C_YN_MowOtlBeeldverwerkingsinstelling	YESNO		1	1	Moet er beeldverwerking bestand zijn?	1	0
+PARAM	5cc73b02-00ea-4376-9059-7953023dcd00	BERSnl_C_YN_MowOtlBijlage	YESNO		1	1	Moet er bijlagebestand zijn?	1	0
+PARAM	2df363be-9755-43e2-8d20-5d43248eb303	BERSnl_C_YN_MowOtlElektrischSchema	YESNO		1	1	Moet er Elektrisch Schema bestand zijn?	1	0
+PARAM	f96eaef0-d032-4acc-bfe7-a45b3ac0e285	BERSnl_C_YN_MowOtlIndelingsplan	YESNO		1	1	Moet er Schematisch overzicht van indeling kasten bestand zijn?	1	0
+PARAM	6113342b-c33e-423e-b57f-a6dd67115191	BERSnl_C_YN_MowOtlVergunning	YESNO		1	1	Moet er een document met de vergunning voor de onderdoorboring zijn?	1	0
+PARAM	6488a086-1c3f-4755-b1a8-2d85a5d659a8	BERSnl_C_YN_MowOtlMPlan	YESNO		1	1	Moet er een bestand zijn voor Mechanisch plan van de volledige installatie.	1	0
+PARAM	dd2ce1f0-c60a-483e-bc45-53cabc0aece8	BERSnl_C_YN_MowOtlRisicoAnalyse	YESNO		1	1	Moet er een bestand zijn voor de risicoanalyse.	1	0
+PARAM	62a0f2bc-c30f-48fc-b728-03aaac46e280	BERSnl_C_YN_MowOtlTechnischeFiche	YESNO		1	1	Moet er een bestand zijn voor de technische fiche van het lijnvormig element.	1	0
